@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.5s;
+  box-sizing: border-box;
+}
+.timg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  margin: 0 8%;
+
+}
+.timg h1 {
+  color: rgb(221, 1, 1);
+  font-weight: 60px;
+  font-size: 60px;
+}
+p {
+  margin: 5%;
+}
+.timg p:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+.timg img:hover {
+  transform: rotate(360deg);
+}
+.v h1 {
+  color: rgb(221, 1, 1);
+  font-weight: 60px;
+  font-size: 60px;
+}
+.v {
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  margin: 0 10%;
+  align-items: center;
+  gap: 5%;
+}
+.v img {
+  height: 200px;
+}
+.v img:hover {
+  transform: rotate(360deg);
+}
+.v1 h2,
+.v2 h2,
+.v3 h2 {
+  color: red;
+  text-align: center;
+}
+.v1:hover,
+.v2:hover,
+.v3:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+.works h2 {
+  margin: 0;
+  margin-left: 5%;
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+}
+.works {
+  width: 50%;
+  line-height: 1.8;
+}
+.works:hover {
+  transform: translateY(-8px) scale(1);
+}
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 16px;
+}
+.c:hover {
+  transform: rotate(360deg);
+}
+.count {
+  display: flex;
+  gap: 5%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8%;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5%;
+  gap: 10%;
+}
+.cs {
+  height: 500px;
+  width: 400px;
+  border-radius: 45% 45% 10% 10%;
+  border: 2px solid black;
+}
+.team {
+  color: red;
+  margin: 0;
+  font-size: 70px;
+}
+.team p {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-size: 30px;
+}
+.cs {
+  height: 500px;
+  width: 400px;
+  border-radius: 80%;
+  border: 2px dotted rgba(175, 4, 4, 0.99);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  background:linear-gradient( rgba(255, 0, 0, 0.755),white);
+}
+
+.cs img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cs p {
+  margin-top: 10px;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+.cs p:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+.cs img:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+.team:hover {
+  transform: translateY(-8px) scale(1);
+}
+.mv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  gap: 10%;
+}
+.mv div{
+  border: 2px dotted rgb(253, 1, 1);
+  height: 50vh;
+  width: 50%;
+  border-radius: 50px;box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.mv div img{
+  height: 100%;
+  border-radius: 50px;
+  width: 100%;
+}
+.mv div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(-4px) scale(1.1);
+}
+.vm{
+  color: red;
+  font-size: 50px;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.5s;
+  box-sizing: border-box;
+}
+
+/* ---------------- Base Styles ---------------- */
+.timg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  margin: 0 8%;
+  gap: 30px;
+}
+
+.timg h1 {
+  color: rgb(221, 1, 1);
+  font-size: 60px;
+}
+
+p {
+  margin: 5%;
+}
+
+.timg p:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+.timg img:hover {
+  transform: rotate(360deg);
+}
+
+.v {
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  margin: 0 10%;
+  align-items: center;
+  gap: 5%;
+}
+.v img {
+  height: 200px;
+}
+.v1 h2,
+.v2 h2,
+.v3 h2 {
+  color: red;
+  text-align: center;
+}
+.v1:hover,
+.v2:hover,
+.v3:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+
+.works h2 {
+  margin: 0;
+  margin-left: 5%;
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+}
+.works {
+  width: 50%;
+  line-height: 1.8;
+}
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 16px;
+}
+.count {
+  display: flex;
+  gap: 5%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8%;
+  gap: 40px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5%;
+  gap: 10%;
+}
+.cs {
+  height: 500px;
+  width: 400px;
+  border-radius: 80%;
+  border: 2px dotted rgba(175, 4, 4, 0.99);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  background: linear-gradient(rgba(255, 0, 0, 0.755), white);
+}
+.cs img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+.cs p {
+  margin-top: 10px;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.team {
+  color: red;
+  margin: 0;
+  font-size: 70px;
+}
+.team p {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-size: 30px;
+}
+
+.mv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  gap: 10%;
+}
+.mv div {
+  border: 2px dotted rgb(253, 1, 1);
+  height: 50vh;
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.mv div img {
+  height: 100%;
+  border-radius: 50px;
+  width: 100%;
+}
+.vm {
+  color: red;
+  font-size: 50px;
+}
+
+/* ---------------- Responsive Styles ---------------- */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .timg {
+    flex-direction: column;
+    text-align: center;
+  }
+  .timg img {
+    width: 80%;
+    height: auto;
+  }
+
+  .v {
+    flex-direction: column;
+    margin: 20px;
+    gap: 30px;
+  }
+
+  .main {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .works {
+    width: 100%;
+    text-align: center;
+  }
+  .count {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .parent {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .cs {
+    width: 300px;
+    height: 400px;
+  }
+
+  .mv {
+    flex-direction: column;
+    margin: 5%;
+    gap: 30px;
+  }
+  .mv div {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .timg h1 {
+    font-size: 36px;
+  }
+  .works h2 {
+    font-size: 32px;
+  }
+  .team {
+    font-size: 40px;
+  }
+  .team p {
+    font-size: 20px;
+  }
+  .vm {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .cs {
+    width: 250px;
+    height: 350px;
+  }
+  .cs p {
+    font-size: 18px;
+  }
+
+  .c {
+    width: 150px;
+    height: 120px;
+  }
+  .c h1 {
+    font-size: 24px;
+  }
+
+  .mv div {
+    width: 100%;
+    height: auto;
+  }
+}

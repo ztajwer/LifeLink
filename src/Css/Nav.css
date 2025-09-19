@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition-duration: 0.5s;
+  font-family: "Inter", sans-serif;
+}
+nav {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  height: 80px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: #ff0000bb;
+  width: 100%;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.links a:hover {
+  transform: translateY(-3px) scale(1.1);
+  color: black;
+}
+.logo:hover {
+  transform: translateY(-4px) scale(1.1);
+}
