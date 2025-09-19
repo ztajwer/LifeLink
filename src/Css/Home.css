@@ -62,6 +62,10 @@ ul li:hover {
 .service-image:hover {
   transform: translateY(-4px) scale(1.1);
 }
+.i img{
+  height: 700px;
+  width: 700px;
+}
 .services {
   display: flex;
   gap: 0;
@@ -356,6 +360,18 @@ ul li:hover {
 
 /* Small Mobiles (max-width: 480px) */
 @media (max-width: 480px) {
+  .img img{
+    height: 250px;
+    width: 300px;
+  }
+  .i img{
+     height: 350px;
+    width: 350px;
+  }
+  .head img{
+     height: 30px;
+    width: 30px;
+  }
   h1 {
     font-size: 32px !important;
   }
@@ -369,9 +385,6 @@ ul li:hover {
     text-align: center;
   }
 
-  .service-image img {
-    height: 180px;
-  }
 
   .about-card {
     border-radius: 16px;
@@ -387,3 +400,9 @@ ul li:hover {
     font-size: 14px;
   }
 }
+
+
+
+
+
+
